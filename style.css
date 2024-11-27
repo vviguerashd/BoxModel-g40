@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     background-color:#663399;
     margin:10px;
@@ -8,26 +12,32 @@ h1{
 
 section{
     background-color:#0444b4;
-    width: 1400px;
-    height: 466px;
+    width: 1150px;
+    height: 456px;
 }
 
-figure img{
-    width: 700px;
+div img{
+    width: 550px;
     height: 466px;
-    /* object-fit: contain; */
+    object-fit: contain;
 }
 
-figure{
+div{
     display: inline-block;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Helvetica, sans-serif;
-    padding: 0 50px;
+    width: auto;
+    height: auto;
+    padding: 0 0px;
     margin: 0;
     overflow: hidden;
 }
 
 #izquierda{
-    margin-bottom: 180px;
+padding: 0 20px 160px 20px;
+}
+
+#derecha{
+    padding: 0px 0px 0px 80px;
 }
