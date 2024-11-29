@@ -3,11 +3,11 @@
 }
 
 /* Esta clase corresponde a la fuente navideña */
-.mountains-of-christmas-bold {
+/* .mountains-of-christmas-bold {
     font-family: "Mountains of Christmas", serif;
     font-weight: 700;
     font-style: normal;
-}  
+}   */
 
 @font-face {
     font-family: halloween;
@@ -59,8 +59,13 @@ div{
     overflow: hidden;
 }
 
+h2{
+    font-family: "Mountains of Christmas", serif;
+}
+
 p{
     color:aliceblue;
+    font-family: "Edu AU VIC WA NT Dots";
 }
 
 div img{
